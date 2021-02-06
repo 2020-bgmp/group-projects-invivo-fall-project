@@ -4,8 +4,7 @@
 ### Mentors: Dr. Adam Saunders, Dr. Trisha Brock
 
 ## Project Summary
-
-This pipeline utilizes gene expression count data to perform a network analysis of co-expressed genes and identify gene clusters (modules) significantly correlated with experimental treatments. This method evaluates changes in expression patterns with a higher, systems-level approach than traditional differential gene expression analysis. The genes, modules, and pathways identified in this analysis serve to inform and guide future research. 
+This pipeline employs Weighted Gene Co-Expression Network Analysis (WGCNA) to examine the interconnectivity of genes and cluster them into modules. Then, the Gene Ontology (GO) knowledgebase is queried to identify the most prominent biological processes associated with each module. Thus, we provide systems-level insights of the key genes and pathways impacted by experimental anti-aging treatments, beyond the capabilities of differential gene expression (DGE) alone and generate hypotheses for the potential mode of action of these treatments. 
 
 ## Table of contents
 
